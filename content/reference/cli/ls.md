@@ -51,4 +51,4 @@ The application status is an aggregate of the statuses of all component instance
 
 ## Further reading
 
-* [Getting an application's status](../status/)
+* [Getting an application's status/reference/cli/status/)

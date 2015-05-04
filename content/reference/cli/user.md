@@ -50,5 +50,5 @@ You can use the `swarm user` command without arguments to print out your user na
 
 ## Further reading
 
- * [Getting basic information](../info/)
- * [Companies](../companies/)
+ * [Getting basic information](/reference/cli/info/)
+ * [Organizations](/reference/cli/org/)

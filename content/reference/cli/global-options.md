@@ -40,7 +40,7 @@ Enable debugging output. This usually contains API calls.
 
 ### `--env`
 
-Explicitly sets the [environment](../env/) used. If set, this overrides the current default environment, but only for this very command.
+Explicitly sets the [environment](/reference/cli/env/) used. If set, this overrides the current default environment, but only for this very command.
 
 Example:
 
