@@ -12,7 +12,7 @@ weight = 50
 
 Using the `swarm start` command you can start an application or a specific service inside an application.
 
-Before you can actually start an application it has to be created in the selected environment before. You can learn more about this on the [environments reference page](../env/) and the reference page on [Creating an application](../create/).
+Before you can actually start an application it has to be created in the selected environment before. You can learn more about this on the [environments reference page](/reference/cli/env/) and the reference page on [Creating an application](/reference/cli/create/).
 
 ## General syntax
 
@@ -24,7 +24,7 @@ $ swarm start [-d|--detach] [app_name[/service_name]]
 
 The optional `app_name` argument specifies the application to be started. It refers to the name you see when running `swarm ls` to list applications. Using the additional `service_name`, seperated by `/`, you can specify a service to be started.
 
-If the `app_name` (and `service_name`) argument is ommitted, the CLI looks if there is a `swarm.json` [application configuration](../swarm-json/) file in the current directory. If this is the case, the application defined in that configuration file is started.
+If the `app_name` (and `service_name`) argument is ommitted, the CLI looks if there is a `swarm.json` [application configuration](/reference/swarm-json/) file in the current directory. If this is the case, the application defined in that configuration file is started.
 
 The flag `-d` or `--detach` can be used to immediately exit the command after issuing the command to the API. When immitted, the command is running until the application is either running an error occurs.
 
@@ -54,6 +54,6 @@ $ swarm start onlineshop/payment
 
 ## Further reading
 
-* [Environments](../env/)
-* [Application configuration reference (`swarm.json`)](../swarm-json/)
-* [Global command line options](../global-options/)
+* [Environments](/reference/cli/env/)
+* [Application configuration reference (`swarm.json`)](/reference/swarm-json/)
+* [Global command line options](/reference/cli/global-options/)

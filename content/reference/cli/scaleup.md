@@ -34,4 +34,4 @@ $ swarm scaleup onlineshop/imageserver/nginx 2
 
 ## Further reading
 
- * [Scaling down a component](../scaledown/)
+ * [Scaling down a component](/reference/cli/scaledown/)

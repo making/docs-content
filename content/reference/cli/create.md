@@ -26,7 +26,7 @@ Assuming that your app configuration file is called `swarm.json` and resides in 
 $ swarm create
 ```
 
-For further information about the app configuration file, please refer to the [swarm.json reference page](../swarm-json/).
+For further information about the app configuration file, please refer to the [swarm.json reference page](/reference/swarm-json/).
 
 <!-- TODO: Explain what this actually does in the background or alternatively link to the architecture overview article which explains this in more detail. -->
 
@@ -72,7 +72,7 @@ For frequent re-use you can store your app creation variables in a JSON variable
 }
 ```
 
-As you can see, the file contains a single JSON object, which on the top level defines keys that are named after your [environments](../env/). This structure allows you to assign different values to variables for each of your environments.
+As you can see, the file contains a single JSON object, which on the top level defines keys that are named after your [environments](/reference/cli/env/). This structure allows you to assign different values to variables for each of your environments.
 
 With the example above, you would now use a variable name `$redis_port` (dont forget the dollar sign!) where appropriate in your app configuration file (`swarm.json`).
 
@@ -110,5 +110,5 @@ The order of the command line options is not important.
 
 ## Further reading
 
-* [Application configuration reference (`swarm.json`)](../swarm-json/)
-* [Global command line options](../global-options/)
+* [Application configuration reference (`swarm.json`)](/reference/swarm-json/)
+* [Global command line options](/reference/cli/global-options/)

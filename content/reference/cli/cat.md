@@ -34,5 +34,5 @@ The effective application configuration is printed in JSON format. VIf variables
 
 ## Further reading
 
-* [Creating an application](../create/)
-* [Application configuration (`swarm.json`)](../swarm-json/)
+* [Creating an application](/reference/cli/create/)
+* [Application configuration (`swarm.json`)](/reference/swarm-json/)

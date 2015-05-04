@@ -12,7 +12,7 @@ weight = 50
 
 The `swarm up` command allows you to create a new application based on your configuration and start it immediately afterwards.
 
-In other words, it does what [`swarm create`](../create/) and [`swarm start`](../start/) do, but with one command call.
+In other words, it does what [`swarm create`](/reference/cli/create/) and [`swarm start`](/reference/cli/start/) do, but with one command call.
 
 ## General syntax
 
@@ -28,7 +28,7 @@ The optional `config_filepath` argument can be used to define which application 
 
 The `--var-file` argument allows to set the path of variables file to be used with your application configuration file. If not given, `./swarmvars.json` is automatically checked and used of present. In addition (or as an alternative to the variables file), an arbitrary number of '--var' arguments can be used to set variables for use in the application configuration.
 
-If you want to know more about using variables in your application configuration, also check out [Creating an application](../create/).
+If you want to know more about using variables in your application configuration, also check out [Creating an application](/reference/cli/create/).
 
 ## Straightforward use
 
@@ -42,6 +42,6 @@ This assumes that your application configuration file is in the current director
 
 ## Further reading
 
-* [Creating an application (`swarm create`)](../create/)
-* [Starting an application (`swarm start`)](../start/)
-* [Application configuration](../swarm-json/)
+* [Creating an application (`swarm create`)](/reference/cli/create/)
+* [Starting an application (`swarm start`)](/reference/cli/start/)
+* [Application configuration](/reference/swarm-json/)

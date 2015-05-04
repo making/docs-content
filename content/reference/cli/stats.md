@@ -14,7 +14,7 @@ The `swarm stats` command allows you to get information on the current system lo
 
 ## Command syntax
 
-The command requires a selection mechanism as an argument. Depending on what scope you want to display statistics for, you give an application name, a service name, a component name (all three as defined in your [application configuration](../swarm-json/)). To show the statistics for a specific component instance, an instance ID (as fetched via the [`swarm status` command](../status/) is required.
+The command requires a selection mechanism as an argument. Depending on what scope you want to display statistics for, you give an application name, a service name, a component name (all three as defined in your [application configuration](/reference/swarm-json/)). To show the statistics for a specific component instance, an instance ID (as fetched via the [`swarm status` command](/reference/cli/status/) is required.
 
 ```nohighlight
 $ swarm stats <application_name>
@@ -38,5 +38,5 @@ sitesearch      sitesearch  sMEWLDbXnO5xkJY3  up      390.94             512    
 
 ## Further reading
 
- * [Accessing process logs](../logs/)
- * [Getting an app's status](../status/)
+ * [Accessing process logs](/reference/cli/logs/)
+ * [Getting an app's status](/reference/cli/status/)

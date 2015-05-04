@@ -39,7 +39,7 @@ Login Succeeded
 Environment yourusername/dev has been selected
 ```
 
-The last output line informs you which [environment](../env/) has been selected as the current environment. It defaults to `<yourusername>/dev`.
+The last output line informs you which [environment](/reference/cli/env/) has been selected as the current environment. It defaults to `<yourusername>/dev`.
 
 ## Non-interactive login
 
@@ -57,4 +57,4 @@ $ swarm login yourusername
 
 ## Further reading
 
-* [Environments](../env/)
+* [Environments](/reference/cli/env/)

@@ -33,10 +33,10 @@ Current environment: acmecorp/dev
 What does this information tell you?
 
 * __Cluster status__: This is the general platform health and should say `reachable`.
-* __Logged in as user__: Here you find the username you are currently logged in with. Hint: If you are only interested in the current user name, you can use the [`swarm user`](../user/) command for that.
-* __Current environment__: The currently selected environment you are working in. Hint: Your can also get this information using [`swarm env`](../env/).
+* __Logged in as user__: Here you find the username you are currently logged in with. Hint: If you are only interested in the current user name, you can use the [`swarm user`](/reference/cli/user/) command for that.
+* __Current environment__: The currently selected environment you are working in. Hint: Your can also get this information using [`swarm env`](/reference/cli/env/).
 
 ## Further reading
 
-* [Environments](../env/)
-* [Companies](../companies/)
+* [Environments](/reference/cli/env/)
+* [Organizations](/reference/cli/org/)

@@ -12,7 +12,7 @@ weight = 87
 
 Logs of processes running on Giant Swarm can be accessed using the `swarm logs` command.
 
-The command requires an instance ID for the instance your component is running on as an argument. An instance ID can be found using the [`swarm status`](../status/) command. If there is more than one instance running for the component you are interested in, you have to inquire the logs for each instance seperately.
+The command requires an instance ID for the instance your component is running on as an argument. An instance ID can be found using the [`swarm status`](/reference/cli/status/) command. If there is more than one instance running for the component you are interested in, you have to inquire the logs for each instance seperately.
 
 Notes:
 
@@ -71,5 +71,5 @@ $ swarm logs AfeLfIT1SeYy -t 100 -f
 
 ## Further reading
 
- * [Getting an application's status](../status/)
- * [Getting statistics](../stats/)
+ * [Getting an application's status](/reference/cli/status/)
+ * [Getting statistics](/reference/cli/stats/)

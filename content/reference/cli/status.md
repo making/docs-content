@@ -14,7 +14,7 @@ The `swarm` command line tool provides the `status` command for you to fetch inf
 
 ## Syntax and output
 
-The command needs the name of your application, which you have to set with the `app_name` key as an argument. Here, `<app_name>` is the name you used in your application configuration file (`swarm.json`) when [creating](../create/) the app. The syntax is:
+The command needs the name of your application, which you have to set with the `app_name` key as an argument. Here, `<app_name>` is the name you used in your application configuration file (`swarm.json`) when [creating](/reference/cli/create/) the app. The syntax is:
 
 ```nohighlight
 $ swarm status [app_name]
@@ -57,7 +57,7 @@ Your components can have either of the following statuses:
 
 ## Further reading
 
-* [List applications](../ls/)
-* [Accessing process logs](../logs/)
-* [Getting instance statistics](../stats/)
-* [Getting basic information](../info/)
+* [List applications](/reference/cli/ls/)
+* [Accessing process logs](/reference/cli/logs/)
+* [Getting instance statistics](/reference/cli/stats/)
+* [Getting basic information](/reference/cli/info/)

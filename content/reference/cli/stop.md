@@ -14,7 +14,7 @@ Using the `swarm stop` command you can stop an entire application or a specific 
 
 Stopping a service means that all components defined within this service will be stopped. Stopping an entire application means thatt all services defined within an application will be stopped, which of course includes all components.
 
-<i class="fa fa-exclamation-triangle"></i> When a component is stopped, the __data stored inside the according container is lost__. If you want to persist data throughout stops and starts, you can use volumes. Find out more about volumes in the [application configuration reference](../swarm-json/#volumes).
+<i class="fa fa-exclamation-triangle"></i> When a component is stopped, the __data stored inside the according container is lost__. If you want to persist data throughout stops and starts, you can use volumes. Find out more about volumes in the [application configuration reference](/reference/swarm-json/#volumes).
 
 ## Stopping an application
 
@@ -47,5 +47,5 @@ $ swarm stop -d myapp/myservice
 
 ## Further reading
 
-* [Starting an application or service](../start/)
-* [Application configuration](../swarm-json/)
+* [Starting an application or service](/reference/cli/start/)
+* [Application configuration](/reference/cli/swarm-json/)
