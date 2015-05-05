@@ -1,11 +1,11 @@
 +++
-title = "What is Giant Swarm?"
+title = "Introduction to Giant Swarm"
 description = "A general introduction into what Giant Swarm is and does. Start here if you are interested in using our service."
-date = "2015-02-10"
+date = "2015-05-05"
 type = "page"
 +++
 
-# What is Giant Swarm?
+# Introduction to Giant Swarm
 
 With Giant Swarm you can build and host server-side applications. There are no restrictions regarding programming languages, web frameworks, or databases. We are especially optimized for applications that are built in a microservice style.
 
